@@ -1,0 +1,153 @@
+
+li {
+    font-family: Raleway, sans-serif;
+}
+.mainHeader {
+    height: 100vh;
+    min-height: 40em;
+    background-image: url("https://live.staticflickr.com/7374/13039037424_ff90cde1dd_b.jpg");
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-attachment: scroll;
+}
+
+.page-header {
+    height: 30vh;
+    background-image: url("https://live.staticflickr.com/7374/13039037424_ff90cde1dd_b.jpg");
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-attachment: scroll;
+    position: relative;
+}
+
+nav {
+    font-family: 'Raleway', sans-serif;
+}
+
+#about-head {
+    color: #28A3B6;
+    font-family: 'Raleway', sans-serif;
+}
+
+#headerPara {
+    text-align: center;
+    color: #28A3B6;
+    font-family: 'Raleway', sans-serif;
+}
+
+/*#portfolio {
+    background-color: #151621;
+    position: relative;
+}*/
+
+#headBtn {
+    background-color: #28A3B6d0;
+    font-family: 'Raleway', sans-serif;
+}
+
+#portBtn {
+    background-color: #28A3B6;
+    color: white;
+    position: absolute;
+    right: 15px;
+    font-family: 'Raleway', sans-serif;
+}
+
+#contactBtn {
+    background-color: #28A3B6;
+    font-family: 'Raleway', sans-serif;
+    color: white;
+}
+
+footer {
+    position: relative;
+}
+
+.footer {
+    position: absolute;
+    left: 15px;
+    bottom: 10px;
+}
+
+p {
+    font-family: 'Raleway', sans-serif;
+}
+
+.nav-link:hover, .nav-link:focus {
+    color: #2A3B4B;
+    text-decoration: underline;
+}
+
+
+#person-img {
+  width: 100%;
+  display: block;
+  height: 100%;
+  object-fit: cover;
+  border-radius: 50%;
+  position: relative;
+}
+
+.img-container {
+    position: relative;
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+    margin: 0 auto;
+    margin-bottom: 1.5rem;
+  }
+
+  .anchor {
+      text-align: center;
+  }
+
+  .button-container {
+      text-align: center;
+  }
+
+  .random-btn {
+      margin-left: auto;
+      margin-right: auto;
+  }
+
+  .prev-btn,
+.next-btn {
+  color: var(--clr-primary-7);
+  font-size: 1.25rem;
+  background: transparent;
+  border-color: transparent;
+  margin: 0 0.5rem;
+  transition: var(--transition);
+  cursor: pointer;
+}
+
+.prev-btn:hover,
+.next-btn:hover {
+  color: var(--clr-primary-5);
+}
+.random-btn {
+  margin-top: 0.5rem;
+  background: var(--clr-primary-10);
+  color: var(--clr-primary-5);
+  padding: 0.25rem 0.5rem;
+  text-transform: capitalize;
+  border-radius:50%;
+  transition: var(--transition);
+  border-color: var(--clr-primary-5);
+  cursor: pointer;
+}
+.random-btn:hover {
+  background: var(--clr-primary-5);
+  color: var(--clr-primary-1);
+}
+
+a.btn-lg {
+    background-color: #28A3B6;
+}
+
+.button-link {
+    background-color: #28A3B6;
+}
+
